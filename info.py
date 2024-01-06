@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20652787'))
-API_HASH = environ.get('API_HASH', '5dea928561e4d2eb77a371edf8b2eb2a')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6884637784:AAFQyHMlaXCI3g_gQW_ClQqD431pptMKCgM")
+API_ID = int(environ.get('API_ID', '29531798'))
+API_HASH = environ.get('API_HASH', 'fc2774074ff23c8da77454415c41ac57')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6563474992:AAHl8CL5r2MG8D8AJCMSEtBATikF5Hk5gQ4")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -48,7 +48,7 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Aloneboy:Aloneboytg@cluster0.nmeelsr.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://vthangamarimuthu:<reno9518>@rabbit.gzx40qp.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "vkbotsthalpathy")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -62,7 +62,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/All_Tamil_movies_request')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DP_DEVELOPER_BOTS')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DP_BOTZ')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_downlode_dpbots')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
