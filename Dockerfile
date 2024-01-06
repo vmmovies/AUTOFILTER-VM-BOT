@@ -3,9 +3,9 @@ RUN apt update && apt upgrade -y
 RUN apt install git -y
 COPY requirements.txt /requirements.txt
 
-RUN cd /
+RUN cd /AUTOFILTER-VM-BOT
 RUN pip install -U pip && pip install -U -r requirements.txt
-WORKDIR /app
+WORKDIR /AUTOFILTER-VM-BOT
 
 COPY . .
 CMD ["python", "bot.py"]
